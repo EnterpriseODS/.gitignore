@@ -1,0 +1,2 @@
+# .gitignore
+My first file
