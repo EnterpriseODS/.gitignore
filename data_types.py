@@ -10,7 +10,7 @@ place_of_residence: str = 'Odessa'
 IT_experience: str = 'not'
 start_date: str = '17.10.2022'  # start date of training
 lessons_learned: int = 2
-full_name = last_name + ' ' + first_name  # for easy and fast printing
+full_name: str = last_name + ' ' + first_name  # for easy and fast printing
 
 print('full_name' ':', full_name,  '\n', 'age', ':', age, "(" 'date_of_birth', date_of_birth, ")")
 print('gender', ':', gender, '\n' 'place_of_residence', ':', place_of_residence)
