@@ -7,8 +7,8 @@ date_of_birth: str = '25.07.1987'
 age: int = 2022 - year_of_birth  # calculates age when entering a year (relevant for 2022)
 gender: str = 'male'
 place_of_residence: str = 'Odessa'
-it_experience: str = 'not'  # experience in IT technologies
-start_date: str = '17.10.2022'  # start date of training
+it_experience: str = 'not'  # experience in IT technologies.
+start_date: str = '17.10.2022'  # start date of training.
 lessons_learned: int = 2
 full_name: str = last_name + ' ' + first_name  # for easy and fast printing
 
