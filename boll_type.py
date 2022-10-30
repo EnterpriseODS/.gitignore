@@ -39,4 +39,4 @@ print(bool("")) == (bool(10 - 1))  # bool(None) - False, because an empty string
 
 print(bool(True or False)) == (bool(print(1)))  # In both cases, the results of the functions are the value
 
-print(bool(type(None))) == bool(id(None))  # In both cases, the results of the functions are the value
+print(bool(type(None))) == bool(id(None))  # In both cases, the results of the functions are the value.
