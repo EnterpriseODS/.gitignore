@@ -35,8 +35,7 @@ print('Examples of the 4rd task')
 
 print(bool(None)) == (bool(7))  # bool(None) - False, because None is an empty value, bool(7) - True
 
-print(bool("")) == (bool(10-1)) # bool(None) - False, because an empty string is an empty value, bool(10-1) - True
-
+print(bool("")) == (bool(10 - 1))  # bool(None) - False, because an empty string is an empty value, bool(10-1) - True
 
 print(bool(True or False)) == (bool(print(1)))  # In both cases, the results of the functions are the value
 
