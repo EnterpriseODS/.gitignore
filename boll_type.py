@@ -20,16 +20,16 @@
 # # and parentheses so that the result of the expression True _ True _ False is True'''
 # print('Examples of the 3rd task')
 
-is_true = 3 > 2 or 3 == 3 and not 5 > 10
+is_true = True and True or False
 print(is_true)  # True
-is_true = 3 == 3 and 2 < 3 or 5 == 0
+is_true = True or True or False
 print(is_true)  # True
-
-age = 35
-print(bool(age))
-is_he_old = False  # :)
-print(not age < 35 and age == 35 or age < 34)  # True
-print(not is_he_old)  # True
+is_true = not False and True or False
+print(is_true)  # True
+is_true = True and True or not True
+print(is_true)  # True
+is_true = not False and not False or not True
+print(is_true)  # True
 #
 # # Subtract boolean values for the pair of arguments (bool()) and match (==) between them.
 # print('Examples of the 4rd task')
