@@ -1,5 +1,6 @@
 a = (input("enter the first number "))
 b = (input("enter the second number "))
+
 # validation and data type assignment
 try:
     a = int(a)
@@ -22,6 +23,8 @@ elif operation == '*':
     result = a * b
 elif operation == '/':
     result = a / b
+elif operation == '**':
+    result = a ** b
 elif not operation in ['*' or '/' or '-' or '+']:
     print('not a correct sign')
 print(f'result: {result}')
